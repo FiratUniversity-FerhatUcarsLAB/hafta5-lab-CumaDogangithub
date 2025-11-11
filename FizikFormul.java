@@ -1,7 +1,7 @@
 /*
- * Ad Soyad: [ADINIZI BURAYA YAZIN]
- * Ogrenci No: [OGRENCI NUMARANIZI BURAYA YAZIN]
- * Tarih: [TARIHI BURAYA YAZIN]
+ * Ad Soyad: Cuma Dogan
+ * Ogrenci No: 250542003
+ * Tarih: 11/11/2025
  * Aciklama: Gorev 2 - Fizik Formulu Asistani
  *
  * Bu program temel fizik formullerini kullanarak
@@ -93,7 +93,14 @@ public class FizikFormul {
         // 3. Kuvvet (F) hesaplanmali (Is icin gerekli)
         // 4. Is (W) hesaplanmali (Guc icin gerekli)
         // ... digerlerini hesaplayin
-  
+        double velocity = calculateVelocity(distance, time); // Hız hesaplama
+        double acceleration = calculateAcceleration(deltaV, time); // İvme hesaplama
+        double force = calculateForce(mass, acceleration); // Kuvvet hesaplama
+        double work = calculateWork(force, distance); // İş hesaplama
+        double power = calculatePower(work, time); // Güç hesaplama
+        double kineticEnergy = calculateKineticEnergy(mass, velocity); // Kinetik enerji hesaplama
+        double potentialEnergy = calculatePotentialEnergy(mass, GRAVITY, height); // Potansiyel enerji hesaplama
+        double momentum = calculateMomentum(mass, velocity); // Momentum hesaplama
 
 
         // SONUCLARI YAZDIR

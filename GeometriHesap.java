@@ -9,7 +9,7 @@
  */
 import java.util.Scanner;
 
-public class gorev1 {
+public class GeometriHesap {
     final static double PI = Math.PI;
 
     public static void main(String[] args) {
